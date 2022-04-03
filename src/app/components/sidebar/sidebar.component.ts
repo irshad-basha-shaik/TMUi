@@ -8,64 +8,49 @@ declare interface RouteInfo {
   class: string;
 }
 export const ROUTES: RouteInfo[] = [
-  {
-    path: "/dashboard",
-    title: "Dashboard",
-    rtlTitle: "لوحة القيادة",
-    icon: "icon-chart-pie-36",
+{
+    path: "/project_details",
+    title: "Project Details",
+    rtlTitle: "تفاصيل المشروع",
+    icon: "icon-notes",
     class: ""
   },
   {
-    path: "/icons",
-    title: "Icons",
-    rtlTitle: "الرموز",
-    icon: "icon-atom",
+    path: "/select_documents_rules",
+    title: "Select documents & Rules",
+    rtlTitle: "حدد المستندات والقواعد",
+    icon: "icon-upload",
     class: ""
   },
   {
-    path: "/maps",
-    title: "Maps",
-    rtlTitle: "خرائط",
+    path: "/generate_concept_seeds",
+    title: "Generate Concept Seeds",
+    rtlTitle: "توليد مفهوم البذور",
     icon: "icon-pin",
     class: "" },
   {
-    path: "/notifications",
-    title: "Notifications",
-    rtlTitle: "إخطارات",
+    path: "/generate_thesaurus",
+    title: "Generate Thesaurus",
+    rtlTitle: "توليد قاموس المرادفات",
     icon: "icon-bell-55",
     class: ""
   },
 
   {
-    path: "/user",
-    title: "User Profile",
-    rtlTitle: "ملف تعريفي للمستخدم",
+    path: "/generate_results",
+    title: "Generate Results",
+    rtlTitle: "توليد النتائج",
     icon: "icon-single-02",
     class: ""
-  },
+  }/**,
   {
-    path: "/tables",
-    title: "Table List",
-    rtlTitle: "قائمة الجدول",
-    icon: "icon-puzzle-10",
+    path: "/user",
+    title: "User Profile",
+    rtlTitle: "توليد النتائج",
+    icon: "icon-single-02",
     class: ""
-  },
-  {
-    path: "/typography",
-    title: "Typography",
-    rtlTitle: "طباعة",
-    icon: "icon-align-center",
-    class: ""
-  },
-  {
-    path: "/rtl",
-    title: "RTL Support",
-    rtlTitle: "ار تي ال",
-    icon: "icon-world",
-    class: ""
-  }
+  }*/
 ];
-
 @Component({
   selector: "app-sidebar",
   templateUrl: "./sidebar.component.html",
